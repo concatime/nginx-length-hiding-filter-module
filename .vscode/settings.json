@@ -1,0 +1,17 @@
+{
+  "editor": {
+    "formatOnSave": true,
+    "formatOnType": true
+  },
+  "clangd": {
+    "arguments": [
+      "--clang-tidy",
+      "--compile-commands-dir=build"
+    ],
+    "onConfigChanged": "restart"
+  },
+  "cmake": {
+    "configureOnOpen": true,
+    "generator": "Unix Makefiles"
+  }
+}
